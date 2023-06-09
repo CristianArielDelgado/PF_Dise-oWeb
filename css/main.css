@@ -516,7 +516,7 @@ ul {
   }
   /* Trabajos */
   .main__container__trabajos {
-    max-width: 45rem;
+    width: 100%;
     max-height: none;
     margin-top: 1rem;
     margin-bottom: 1rem;
