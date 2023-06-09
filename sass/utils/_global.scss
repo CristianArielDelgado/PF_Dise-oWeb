@@ -1,0 +1,32 @@
+html{
+    font-size: 62.5%;
+}
+/* General - Reset */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+@font-face {
+    font-family: love;
+    src: url(../assets/ttf/LoveAndBeauty.otf) format("OpenType");
+}
+.body{
+    background-color: $secundario;
+}
+.header{
+    background-color: $primario; 
+}
+.main{
+    background-color: $secundario;
+}
+.footer{
+    background-color: $primario;
+}

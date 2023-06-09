@@ -1,0 +1,82 @@
+.main__container__contacto{
+    max-width: 120rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main__container__contacto{
+    .main__contacto__form{
+        margin-top: 1rem;
+        background: $formulario;
+        max-width: 55rem;
+        padding: 5rem;
+        margin-right: 2rem;
+        box-shadow: 0 0 1rem #c98b8b;
+        border-top: 0.4rem solid rgb(243, 151, 243);
+        fieldset{
+            padding: 2.5rem;
+            color: black;
+            border-color: rgb(226, 44, 226);
+        }
+        input{
+            display: block;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 1rem;
+            &:focus{
+                background-color: rgb(243, 171, 243);
+            }
+        }
+        button{
+            background-color: rgb(228, 102, 228);
+            color: white;
+            font-size: 1.5rem;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(202, 10, 202);
+            }
+        }       
+        #info {
+            font-size: 1.6rem;
+            padding: 1rem;
+            border: 0.2rem solid #ccc;
+            border-radius: 0.5rem;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 2rem;
+        }
+    }
+    /*Location */
+    .main__contacto__location{
+        max-width: 55rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        
+        .location__header{
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            img{
+                max-width: 4rem;
+                margin-right: 1rem;
+            }           
+            h1{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 3rem;
+                margin: 0;
+            }
+        }
+        .location__map{
+            margin: 0 auto;
+            width: 120%;
+            height: 20rem;
+        }
+    }
+}

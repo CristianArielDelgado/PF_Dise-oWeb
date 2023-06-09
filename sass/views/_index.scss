@@ -1,0 +1,29 @@
+.main{
+    padding: 0.5rem;
+    &__container{
+        max-width: 120rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-carousel div img{
+            width: 50rem;
+            padding: 1rem;
+            border-radius: 4rem;
+        }
+        &-text {
+            h1{
+                font-family: love;
+                font-size: 9rem;
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                margin-left: 1rem;
+                font-size: 3rem;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: justify;
+            }
+        }
+    }
+}
